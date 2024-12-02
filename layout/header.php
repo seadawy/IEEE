@@ -22,11 +22,8 @@ function isUrl($page)
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
                             <a href="index.php"
-                                class="<?= isUrl('index.php') ? $Active : $nonActive  ?>" aria-current="page">Dashboard</a>
-                            <a href="team.php" class="<?= isUrl('team.php') ? $Active  : $nonActive  ?>">Team</a>
-                            <a href="#" class="<?= isUrl('home.php') ? $Active  : $nonActive  ?>">Projects</a>
-                            <a href="#" class="<?= isUrl('home.php') ? $Active  : $nonActive  ?>">Calendar</a>
-                            <a href="#" class="<?= isUrl('home.php') ? $Active  : $nonActive  ?>">Reports</a>
+                                class="<?= isUrl('index.php') ? $Active : $nonActive  ?>" aria-current="page">MY List</a>
+                            <a href="create.view.php" class="<?= isUrl('create.view.php') ? $Active  : $nonActive  ?>">Add Task</a>
                         </div>
                     </div>
                 </div>
